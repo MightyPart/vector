@@ -7,8 +7,8 @@ from discord.ext import commands
 bottomtext = "website coming soon"
 
 mydb = mysql.connector.connect(
-  host="127.0.0.1",
-  port = "3306",
+  host="192.168.241.1",
+  port="3306",
   user="Cameron",
   password="322005bday",
   database="mydatabase"
